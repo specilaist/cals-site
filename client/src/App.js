@@ -8,7 +8,8 @@ import AdminPage from "./pages/AdminPage";
 function App() {
   return (
     <Router>
-      <Route exact path="/" component={MainPage} />
+      <Navbar/>
+      <Route exact path="/" component={MainPage}/>
       <Route exact path="/mybooks" component={AdminPage} />
     </Router>
   );
