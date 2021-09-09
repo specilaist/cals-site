@@ -1,11 +1,9 @@
 import React from "react";
 import SwiperCore, { Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+// import { makeStyles } from '@material-ui/core/styles';
 
 import 'swiper/swiper-bundle.css';
-
-
-SwiperCore.use([Navigation, Pagination, Scrollbar]);
 
 export default function Highlights() {
   const slides = [];
