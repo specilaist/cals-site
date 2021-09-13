@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Navbar/>
       <Route exact path="/" component={MainPage}/>
-      <Route exact path="/mybooks" component={AdminPage} />
+      <Route exact path="/admin" component={AdminPage} />
     </Router>
   );
 }
